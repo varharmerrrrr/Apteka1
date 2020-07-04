@@ -37,6 +37,7 @@ namespace Apteka
                         users.FirstName = user.FirstName;
                         users.LastName = user.LastName;
                         users.MiddleName = user.MiddleName;
+                        users.Type = user.Type;
                     }
                 }
                 foreach (Doktor doktor in Program.apteka.Doktor)
