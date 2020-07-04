@@ -32,7 +32,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.labelHello = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button2
@@ -80,23 +79,12 @@
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click_1);
             // 
-            // labelHello
-            // 
-            this.labelHello.AutoSize = true;
-            this.labelHello.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelHello.Location = new System.Drawing.Point(10, 9);
-            this.labelHello.Name = "labelHello";
-            this.labelHello.Size = new System.Drawing.Size(42, 15);
-            this.labelHello.TabIndex = 48;
-            this.labelHello.Text = "label2";
-            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(213)))), ((int)(((byte)(202)))));
             this.ClientSize = new System.Drawing.Size(301, 308);
-            this.Controls.Add(this.labelHello);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
@@ -116,6 +104,5 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Label labelHello;
     }
 }

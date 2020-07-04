@@ -39,6 +39,18 @@ namespace Apteka
                         users.MiddleName = user.MiddleName;
                     }
                 }
+                foreach (Doktor doktor in Program.apteka.Doktor)
+                {
+                    if (textBoxLog.Text == doktor.Login && textBoxPass.Text == doktor.Password)
+                    {
+                        key = true;
+                        users.Login = doktor.Login;
+                        users.Password = doktor.Password;
+                        users.FirstName = doktor.FirstName;
+                        users.LastName = doktor.LastName;
+                        users.MiddleName = doktor.MiddleName;
+                    }
+                }
                 if (!key)
                 {
                     MessageBox.Show("Проверьте данные", "Пользователь не найден", MessageBoxButtons.OK, MessageBoxIcon.Information);

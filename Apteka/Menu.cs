@@ -15,7 +15,6 @@ namespace Apteka
         public Menu()
         {
             InitializeComponent();
-            labelHello.Text = "Добро пожаловать " + Log.users.Login + "!";
         }
 
         private void button1_Click(object sender, EventArgs e)

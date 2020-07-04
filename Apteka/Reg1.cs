@@ -99,6 +99,7 @@ namespace Apteka
                         user.Password = textBoxPass.Text;
                         user.Phone = textBoxPhone.Text;
                         user.Email = textBoxEmail.Text;
+                        user.Type = "user";
                         Program.apteka.Users.Add(user);
                         Program.apteka.SaveChanges();
                         try { }

@@ -39,6 +39,7 @@
           <Property Name="MiddleName" Type="nvarchar" MaxLength="80" />
           <Property Name="Phone" Type="nvarchar" MaxLength="80" Nullable="false" />
           <Property Name="Email" Type="nvarchar" MaxLength="80" Nullable="false" />
+          <Property Name="Type" Type="nvarchar" MaxLength="80" />
         </EntityType>
         <EntityContainer Name="Хранилище aptekaModelContainer">
           <EntitySet Name="Doktor" EntityType="Self.Doktor" Schema="dbo" store:Type="Tables" />
@@ -84,6 +85,7 @@
           <Property Name="MiddleName" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
           <Property Name="Phone" Type="String" MaxLength="80" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="Email" Type="String" MaxLength="80" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Type" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
         </EntityType>
         <EntityContainer Name="aptekaEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Doktor" EntityType="Self.Doktor" />
@@ -131,6 +133,7 @@
                 <ScalarProperty Name="MiddleName" ColumnName="MiddleName" />
                 <ScalarProperty Name="Phone" ColumnName="Phone" />
                 <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Type" ColumnName="Type" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

@@ -22,5 +22,6 @@ namespace Apteka
         public string MiddleName { get; set; }
         public string Phone { get; set; }
         public string Email { get; set; }
+        public string Type { get; set; }
     }
 }
