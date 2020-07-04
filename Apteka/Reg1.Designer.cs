@@ -53,6 +53,7 @@
             this.labelEmail = new System.Windows.Forms.Label();
             this.buttonAdd = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
+            this.buttonAdd1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // comboBoxType
@@ -263,12 +264,25 @@
             this.label3.TabIndex = 33;
             this.label3.Text = "Вы Покупатель или Фармацевт?";
             // 
+            // buttonAdd1
+            // 
+            this.buttonAdd1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(169)))), ((int)(((byte)(175)))));
+            this.buttonAdd1.Location = new System.Drawing.Point(23, 238);
+            this.buttonAdd1.Name = "buttonAdd1";
+            this.buttonAdd1.Size = new System.Drawing.Size(280, 49);
+            this.buttonAdd1.TabIndex = 34;
+            this.buttonAdd1.Text = "Зарегистрироваться";
+            this.buttonAdd1.UseVisualStyleBackColor = false;
+            this.buttonAdd1.Visible = false;
+            this.buttonAdd1.Click += new System.EventHandler(this.buttonAdd1_Click);
+            // 
             // Reg1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(213)))), ((int)(((byte)(202)))));
             this.ClientSize = new System.Drawing.Size(335, 311);
+            this.Controls.Add(this.buttonAdd1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.buttonAdd);
             this.Controls.Add(this.labelPhone);
@@ -329,5 +343,6 @@
         private System.Windows.Forms.Label labelEmail;
         private System.Windows.Forms.Button buttonAdd;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button buttonAdd1;
     }
 }

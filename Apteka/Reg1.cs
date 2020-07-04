@@ -32,6 +32,7 @@ namespace Apteka
                 textBoxLog.Visible = true;
                 textBoxPass.Visible = true;
                 textBoxPassCopy.Visible = true;
+                buttonAdd.Visible = true;
 
                 textBoxFirstName1.Visible = false;
                 textBoxMiddleName1.Visible = false;
@@ -39,6 +40,7 @@ namespace Apteka
                 textBoxLog1.Visible = false;
                 textBoxPass1.Visible = false;
                 textBoxPassCopy1.Visible = false;
+                buttonAdd1.Visible = false;
 
                 textBoxFirstName.Text = "";
                 textBoxMiddleName.Text = "";
@@ -61,6 +63,7 @@ namespace Apteka
                 textBoxPassCopy.Visible = false;
                 labelEmail.Visible = false;
                 labelPhone.Visible = false;
+                buttonAdd.Visible = false;
 
                 textBoxFirstName1.Visible = true;
                 textBoxMiddleName1.Visible = true;
@@ -68,6 +71,7 @@ namespace Apteka
                 textBoxLog1.Visible = true;
                 textBoxPass1.Visible = true;
                 textBoxPassCopy1.Visible = true;
+                buttonAdd1.Visible = true;
 
 
                 textBoxFirstName1.Text = "";
@@ -105,6 +109,42 @@ namespace Apteka
                         }
                         Close();
                         if (textBoxPass.Text == textBoxPassCopy.Text)
+                        {
+                            MessageBox.Show("Пользователь зарегистрирован");
+                        }
+                        else MessageBox.Show("Пароли не совподают");
+                    }
+                    else MessageBox.Show("Повторите пароль");
+                }
+                else MessageBox.Show("Укажите пароль");
+            }
+            else MessageBox.Show("Укажите логин");
+        }
+
+        private void buttonAdd1_Click(object sender, EventArgs e)
+        {
+            if (textBoxLog1.Text.Length > 0)
+            {
+                if (textBoxPass1.Text.Length > 0)
+                {
+                    if (textBoxPassCopy1.Text.Length > 0)
+                    {
+                        Doktor doktor = new Doktor();
+                        doktor.FirstName = textBoxFirstName1.Text;
+                        doktor.MiddleName = textBoxMiddleName1.Text;
+                        doktor.LastName = textBoxLastName1.Text;
+                        doktor.Login = textBoxLog1.Text;
+                        doktor.Password = textBoxPass1.Text;
+                        Program.apteka.Doktor.Add(doktor);
+                        Program.apteka.SaveChanges();
+                        try { }
+                        catch (Exception ex)
+                        {
+                            MessageBox.Show(ex.Message);
+                            return;
+                        }
+                        Close();
+                        if (textBoxPass1.Text == textBoxPassCopy1.Text)
                         {
                             MessageBox.Show("Пользователь зарегистрирован");
                         }
