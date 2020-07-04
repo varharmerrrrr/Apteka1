@@ -38,6 +38,7 @@
             // buttonOK
             // 
             this.buttonOK.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(169)))), ((int)(((byte)(175)))));
+            this.buttonOK.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonOK.Location = new System.Drawing.Point(12, 113);
             this.buttonOK.Name = "buttonOK";
             this.buttonOK.Size = new System.Drawing.Size(185, 52);
@@ -64,18 +65,20 @@
             // labelPass
             // 
             this.labelPass.AutoSize = true;
+            this.labelPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelPass.Location = new System.Drawing.Point(20, 53);
             this.labelPass.Name = "labelPass";
-            this.labelPass.Size = new System.Drawing.Size(45, 13);
+            this.labelPass.Size = new System.Drawing.Size(57, 16);
             this.labelPass.TabIndex = 6;
             this.labelPass.Text = "Пароль";
             // 
             // labelLog
             // 
             this.labelLog.AutoSize = true;
+            this.labelLog.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelLog.Location = new System.Drawing.Point(20, 14);
             this.labelLog.Name = "labelLog";
-            this.labelLog.Size = new System.Drawing.Size(38, 13);
+            this.labelLog.Size = new System.Drawing.Size(47, 16);
             this.labelLog.TabIndex = 5;
             this.labelLog.Text = "Логин";
             // 

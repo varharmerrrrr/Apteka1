@@ -175,72 +175,80 @@
             // labelLogin
             // 
             this.labelLogin.AutoSize = true;
+            this.labelLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelLogin.Location = new System.Drawing.Point(20, 55);
             this.labelLogin.Name = "labelLogin";
-            this.labelLogin.Size = new System.Drawing.Size(38, 13);
+            this.labelLogin.Size = new System.Drawing.Size(47, 16);
             this.labelLogin.TabIndex = 19;
             this.labelLogin.Text = "Логин";
             // 
             // labelFirstName
             // 
             this.labelFirstName.AutoSize = true;
+            this.labelFirstName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelFirstName.Location = new System.Drawing.Point(180, 55);
             this.labelFirstName.Name = "labelFirstName";
-            this.labelFirstName.Size = new System.Drawing.Size(29, 13);
+            this.labelFirstName.Size = new System.Drawing.Size(34, 16);
             this.labelFirstName.TabIndex = 18;
             this.labelFirstName.Text = "Имя";
             // 
             // labelPass
             // 
             this.labelPass.AutoSize = true;
+            this.labelPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelPass.Location = new System.Drawing.Point(20, 106);
             this.labelPass.Name = "labelPass";
-            this.labelPass.Size = new System.Drawing.Size(45, 13);
+            this.labelPass.Size = new System.Drawing.Size(57, 16);
             this.labelPass.TabIndex = 21;
             this.labelPass.Text = "Пароль";
             // 
             // labelLastName
             // 
             this.labelLastName.AutoSize = true;
+            this.labelLastName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelLastName.Location = new System.Drawing.Point(180, 106);
             this.labelLastName.Name = "labelLastName";
-            this.labelLastName.Size = new System.Drawing.Size(56, 13);
+            this.labelLastName.Size = new System.Drawing.Size(67, 16);
             this.labelLastName.TabIndex = 20;
             this.labelLastName.Text = "Фамилия";
             // 
             // labelPassCopy
             // 
             this.labelPassCopy.AutoSize = true;
+            this.labelPassCopy.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelPassCopy.Location = new System.Drawing.Point(20, 155);
             this.labelPassCopy.Name = "labelPassCopy";
-            this.labelPassCopy.Size = new System.Drawing.Size(100, 13);
+            this.labelPassCopy.Size = new System.Drawing.Size(130, 16);
             this.labelPassCopy.TabIndex = 26;
             this.labelPassCopy.Text = "Повторите пароль";
             // 
             // labelMiddleName
             // 
             this.labelMiddleName.AutoSize = true;
+            this.labelMiddleName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelMiddleName.Location = new System.Drawing.Point(180, 155);
             this.labelMiddleName.Name = "labelMiddleName";
-            this.labelMiddleName.Size = new System.Drawing.Size(113, 13);
+            this.labelMiddleName.Size = new System.Drawing.Size(145, 16);
             this.labelMiddleName.TabIndex = 25;
             this.labelMiddleName.Text = "Отчество (если есть)";
             // 
             // labelPhone
             // 
             this.labelPhone.AutoSize = true;
+            this.labelPhone.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelPhone.Location = new System.Drawing.Point(20, 196);
             this.labelPhone.Name = "labelPhone";
-            this.labelPhone.Size = new System.Drawing.Size(52, 13);
+            this.labelPhone.Size = new System.Drawing.Size(68, 16);
             this.labelPhone.TabIndex = 31;
             this.labelPhone.Text = "Телефон";
             // 
             // labelEmail
             // 
             this.labelEmail.AutoSize = true;
+            this.labelEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelEmail.Location = new System.Drawing.Point(180, 196);
             this.labelEmail.Name = "labelEmail";
-            this.labelEmail.Size = new System.Drawing.Size(37, 13);
+            this.labelEmail.Size = new System.Drawing.Size(49, 16);
             this.labelEmail.TabIndex = 30;
             this.labelEmail.Text = "Почта";
             // 
@@ -258,15 +266,17 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label3.Location = new System.Drawing.Point(75, 15);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(175, 13);
+            this.label3.Size = new System.Drawing.Size(220, 16);
             this.label3.TabIndex = 33;
             this.label3.Text = "Вы Покупатель или Фармацевт?";
             // 
             // buttonAdd1
             // 
             this.buttonAdd1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(169)))), ((int)(((byte)(175)))));
+            this.buttonAdd1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonAdd1.Location = new System.Drawing.Point(23, 238);
             this.buttonAdd1.Name = "buttonAdd1";
             this.buttonAdd1.Size = new System.Drawing.Size(280, 49);
