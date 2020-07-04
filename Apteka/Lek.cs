@@ -16,7 +16,7 @@ namespace Apteka
         {
             InitializeComponent();
             ShowItem();
-            if (Log.users.Type == "user") buttonAdd.Enabled = false;
+            if (Log.users.Type == "user") { buttonAdd.Enabled = false; buttonEdit.Enabled = false; buttonDel.Enabled = false; }
             }
 
         void ShowItem()
